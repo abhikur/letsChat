@@ -1,0 +1,59 @@
+h1 {
+	margin-top: 200px;
+	text-align: center;
+	font-family: Baskerville;
+	color: grey;
+}
+
+.chatArea {
+	height: 600px;
+	width:100%;
+	background-color: linen;
+	border: 1px solid;
+}
+
+.msgBox {
+	float: left;
+	margin-right: 10px;
+	width: 90%;
+}
+
+.sendButton {
+	float: right;
+	height: 32px;
+	width: 80px;
+}
+
+.nameField {
+	margin-top: 400px;
+}
+
+.nameContainer {
+	text-align: center;
+}
+
+.nameArea {
+	background-color: transparent;
+    color: grey;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid lightgrey 1px;
+    padding: 3px 10px;
+    margin-top: 30px;
+    
+}
+
+.errorDialogHidden {
+	visibility: hidden;
+}
+
+.errorDialogVisible {
+	text-align: center;
+	color: red;
+	font: 14px italic;
+	visibility: visible;
+}
+
